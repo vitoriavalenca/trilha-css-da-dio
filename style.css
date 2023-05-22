@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+
+header {
+    width: auto;
+    height: 800px;
+    background-image: linear-gradient(#00000099, #31a8dd33, #00000099), url(../trilha-css-desafio-01-main/assets/images/image\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid #33a8db80;
+    align-content: center;
+    padding: 50px 0 70px;
+}
+
+#title {
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 2rem;
+    font-weight: 900;
+    margin: 0 .5rem 1rem;
+    text-transform: uppercase;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+#subtitle {
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    
+}
+
+
+
+
+button {
+    border: 2px solid #31A8DD;
+    padding: 12px;
+    background: transparent;
+    margin-top: 400px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-image-source: linear-gradient(#3BA1CD, #1572B7);
+    border-image-repeat: repeat;
+    border-image-slice: 20;
+    color: #31A8DD;
+    font-size: .75rem;
+    font-weight: 900;
+    letter-spacing: 0.21rem;
+    padding: 1.1875rem 2.375rem;
+    transition: .2s;
+    align-content: center;
+
+}
+
+button:hover {
+    color: #1472B7;
+    border: 2px solid #1472B7;
+    background-color: rgba(21, 114, 183, .25);
+    cursor: pointer;
+}
+
+section {
+    margin: 100px auto;
+}
+
+#banner-image {
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid transparent;
+    border-radius: 50%;
+    height: 180px;
+    margin-bottom: 1rem;
+    object-fit: contain;
+    padding: 20px;
+    width: 180px;
+}
+
+#banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-position: center center;
+}
+
+#banner-content h1 {
+    font-weight: 900;
+    font-size: 40px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color:  transparent;
+    font-family: 'Raleway', sans-serif;
+}
+
+#banner-content p {
+    width: 510px;
+    height: 46px;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+#banner-content img {
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* O QUE VOU APRENDER? */
+
+#course-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#course-content h2 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 32px;
+    letter-spacing: 0.19em;
+    margin-bottom: 12px;
+    color: #33A8DB;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#course-content p {
+    width: 900px;
+    text-align: center;
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#course-content .module {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 12px 90px;
+    margin-bottom: 12px;
+    width: 600px;
+    height: 60px;
+    cursor: pointer;
+    background: #252525;
+    border: 1px solid #33A8DB;
+    box-shadow: inset -2px 6px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 57px;
+}
+
+.module span {
+    color: #33A8DB;
+    margin-right: 6px;
+}
+
+#transform-world {
+    height: 560px;
+    background-size: cover;
+    background-image: url("../trilha-css-desafio-01-main/assets/images/woman-code.png");
+    background-attachment: fixed;
+    border-top: 1px solid #33a8db80;
+    border-bottom: 1px solid #33a8db80;
+    padding: 200px;
+}
+
+#transform-world p {
+    position: absolute;
+    width: 244px;
+    height: 141px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    text-shadow: 3px 2px 0px #33A8DB;
+    text-transform: lowercase;
+}
+
+/* EVOLUA E ENCARE NOVOS DESAFIOS PROFISSIONAIS */
+
+#professional-challenges {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#professional-challenges h2 {
+    width: 766px;
+    position: absolute;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0.19em;
+    color: #33A8DB;
+    text-transform: uppercase;
+}
+
+#professional-challenges img {
+    position: absolute;
+    width: 659px;
+    height: 429px;
+    left: auto;
+    top: 2040px;
+}
+
+#professional-challenges p {
+    width: 910px;
+    text-align: center;
+    top: 2530px;
+    position: absolute;
+}
+
+footer {
+    /* Rectangle */
+    width: auto;
+    height: 170px;
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+    border-top: 1px solid #33A8DB;
+    margin-top: 700px;
+    padding: 60px 0;
+    text-align: center;    
+}
+
+footer .dio-logo {
+    width: 300px;
+}
+
+footer a {
+    color: #1472B7;
+    font-weight: bold;
+    text-decoration: none;
+}
+
